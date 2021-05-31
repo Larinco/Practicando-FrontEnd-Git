@@ -2,6 +2,8 @@
 
 :root {
     --bg_color: #f45;
+    --animateHeaderTitle: rgb(255, 94, 94);
+    --baseTransition: all .15s ease-in-out;
 }
 
 * {
@@ -22,10 +24,12 @@ header {
     background: var(--bg_color);
     text-align: center;
     padding: .75rem 0;
+    transition: var(--baseTransition);
 }
 
 header h1 {
     color: white;
+    user-select: none;
 }
 
 main section, main section ul {
@@ -34,4 +38,10 @@ main section, main section ul {
 
 li, main section, main section h2 {
     margin: 1rem 0;
+}
+
+
+.animateHeaderTitle {
+    background: var(--animateHeaderTitle);
+    transition: var(--baseTransition);
 }
