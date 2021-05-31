@@ -1,0 +1,33 @@
+
+
+:root {
+    --bg_color: #f45;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 3rem 1rem;
+}
+
+header {
+    background: var(--bg_color);
+    text-align: center;
+    padding: .75rem 0;
+}
+
+header h1 {
+    color: white;
+}
+
+main section, main section ul {
+    padding: 0 1rem;
+}
+
+main section, main section h2 {
+    margin: 1rem 0;
+}
