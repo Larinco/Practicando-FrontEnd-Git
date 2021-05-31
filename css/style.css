@@ -28,6 +28,6 @@ main section, main section ul {
     padding: 0 1rem;
 }
 
-main section, main section h2 {
+li, main section, main section h2 {
     margin: 1rem 0;
 }
