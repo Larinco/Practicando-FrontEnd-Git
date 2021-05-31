@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 })
 
 const animateHeaderTitle = (headerTitle) => {
-    header__title.addEventListener("click", () => {
-        headerTitle.classList.toggle("animateHeaderTitle")
-    })
+    header__title.addEventListener("click", () => toggleClass(headerTitle, "animateHeaderTitle"))
 }
+
+const toggleClass = (element, classToggle) => element.classList.toggle(classToggle)
